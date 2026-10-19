@@ -12,7 +12,10 @@ images/
     ├── logo.png       500×158   RGBA  浅色模式头部 logo
     ├── logo_dark.png  300×95    RGBA  深色 / 夜间模式头部 logo
     ├── favicon.ico    16/32/48/64     浏览器标签图标
-    └── favicon.png    64×64     透明底  备用图标
+    ├── favicon.png    64×64     透明底  备用图标
+    ├── icon.png       148×148   浅底    桌面图标（iOS 添加到主屏幕）
+    ├── icon-180.png   180×180   浅底    iPhone 标准尺寸
+    └── icon-512.png   512×512   浅底    Android / PWA
 ```
 
 ## 品牌图一览
@@ -23,6 +26,9 @@ images/
 | `logo/logo_dark.png` | 300 × 95 | ✓ | 子比主题 `logo_src_dark`（深色头部） |
 | `logo/favicon.ico` | 16 / 32 / 48 / 64 | ✓ | 浏览器标签页 |
 | `logo/favicon.png` | 64 × 64 | ✓ | 旧浏览器 / 备用 |
+| `logo/icon.png` | 148 × 148 | — | 桌面图标（iOS 主屏幕） |
+| `logo/icon-180.png` | 180 × 180 | — | iPhone 标准尺寸 |
+| `logo/icon-512.png` | 512 × 512 | — | Android / PWA |
 
 尺寸与子比主题自带的 `img/logo.png`（500×158）、`img/logo_dark.png`（300×95）一致，
 替换时**同名覆盖即可**，不需要改任何 CSS。
