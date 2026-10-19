@@ -15,6 +15,8 @@ images/
 │   ├── icon.png         148×148   浅底    桌面图标（iOS 主屏幕）
 │   ├── icon-180.png     180×180   浅底    iPhone 标准尺寸
 │   └── icon-512.png     512×512   浅底    Android / PWA
+├── badge/               # 徽章 / 功能图标
+│   └── community.png    200×200   RGBA  社区徽章
 └── poster/              # 横幅 / 海报背景
     └── zerowrt.jpg      2300×979  JPEG    ZeroWrt 海报 / 首页 Banner
 ```
@@ -76,6 +78,21 @@ images/
 
 ---
 
+## 徽章
+
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <img src="badge/community.png" width="120" alt="社区徽章"><br>
+      <sub><b>community.png</b> · PNG · 200×200</sub>
+    </td>
+  </tr>
+</table>
+
+透明底功能图标，用于社区入口、板块标识、列表徽标等场景。
+
+---
+
 ## 海报展示
 
 <img src="poster/zerowrt.jpg" width="720" alt="ZeroWrt 海报">
@@ -100,6 +117,12 @@ images/
 | `icon.png` | 148 × 148 | — | 桌面图标（iOS 主屏幕） |
 | `icon-180.png` | 180 × 180 | — | iPhone 标准尺寸 |
 | `icon-512.png` | 512 × 512 | — | Android / PWA |
+
+### `badge/`
+
+| 文件 | 尺寸 | 格式 | 用途 |
+| :-- | :-- | :-- | :-- |
+| `community.png` | 200 × 200 | PNG（透明底） | 社区徽章 |
 
 ### `poster/`
 
@@ -131,6 +154,7 @@ https://raw.githubusercontent.com/MinimaxFlora/Website_Resources/master/images/l
 https://raw.githubusercontent.com/MinimaxFlora/Website_Resources/master/images/logo/logo_dark.png
 https://raw.githubusercontent.com/MinimaxFlora/Website_Resources/master/images/logo/favicon.ico
 https://raw.githubusercontent.com/MinimaxFlora/Website_Resources/master/images/logo/icon.png
+https://raw.githubusercontent.com/MinimaxFlora/Website_Resources/master/images/badge/community.png
 https://raw.githubusercontent.com/MinimaxFlora/Website_Resources/master/images/poster/zerowrt.jpg
 ```
 
