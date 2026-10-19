@@ -19,7 +19,71 @@ images/
     └── slider-bg.jpg    2300×979  JPEG    首页 Banner 背景
 ```
 
-## 品牌标识 `logo/`
+---
+
+## 品牌总览
+
+### 站点 logo
+
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <img src="logo/logo.png" width="300" alt="浅色模式 logo"><br>
+      <sub><b>logo.png</b> · 500×158 · 浅色模式</sub>
+    </td>
+    <td align="center" width="50%">
+      <img src="logo/logo_dark.png" width="300" alt="深色模式 logo"><br>
+      <sub><b>logo_dark.png</b> · 300×95 · 深色模式</sub>
+    </td>
+  </tr>
+</table>
+
+### 桌面图标
+
+<table>
+  <tr>
+    <td align="center" width="33%">
+      <img src="logo/icon.png" width="148" alt="桌面图标 148"><br>
+      <sub><b>icon.png</b> · 148×148</sub>
+    </td>
+    <td align="center" width="33%">
+      <img src="logo/icon-180.png" width="148" alt="桌面图标 180"><br>
+      <sub><b>icon-180.png</b> · 180×180</sub>
+    </td>
+    <td align="center" width="33%">
+      <img src="logo/icon-512.png" width="148" alt="桌面图标 512"><br>
+      <sub><b>icon-512.png</b> · 512×512</sub>
+    </td>
+  </tr>
+</table>
+
+### 标签图标
+
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <img src="logo/favicon.png" width="64" alt="favicon"><br>
+      <sub><b>favicon.ico</b> · 16/32/48/64<br><b>favicon.png</b> · 64×64</sub>
+    </td>
+  </tr>
+</table>
+
+---
+
+## 海报展示
+
+<img src="poster/slider-bg.jpg" width="720" alt="首页 Banner 背景">
+
+<sub><b>poster/slider-bg.jpg</b> · 2300×979 · JPEG · 首页 Banner / 幻灯片背景</sub>
+
+构图：左侧菱形底纹、右侧留白，适合在左侧压标题文字。尺寸与子比主题自带的
+`img/slider-bg.jpg` 相同，可直接同名替换。
+
+---
+
+## 规格表
+
+### `logo/`
 
 | 文件 | 尺寸 | 透明底 | 用途 |
 | :-- | :-- | :--: | :-- |
@@ -31,17 +95,13 @@ images/
 | `icon-180.png` | 180 × 180 | — | iPhone 标准尺寸 |
 | `icon-512.png` | 512 × 512 | — | Android / PWA |
 
-尺寸与子比主题自带的 `img/logo.png`（500×158）、`img/logo_dark.png`（300×95）一一对应，
-替换时**同名覆盖**即可，不需要改 CSS。
-
-## 海报背景 `poster/`
+### `poster/`
 
 | 文件 | 尺寸 | 格式 | 用途 |
 | :-- | :-- | :-- | :-- |
 | `slider-bg.jpg` | 2300 × 979 | JPEG | 首页 Banner / 幻灯片背景 |
 
-与子比主题自带的 `img/slider-bg.jpg` 同尺寸（2300×979），可直接同名替换。
-构图：左侧菱形底纹、右侧留白，适合在左侧压标题文字。
+---
 
 ## 配色
 
@@ -56,7 +116,7 @@ images/
 1. **透明底**：logo 与 favicon 一律用 RGBA PNG，不留白底/黑底，深浅两套主题都能用。
 2. **尺寸对齐**：logo 宽高比 3.16:1（500×158 / 1000×316）；海报 2300×979。
 3. **命名**：`xxx.png` 给浅色模式，`xxx_dark.png` 给深色模式，后缀不要改。
-4. **新增文件**：同步更新上面的表格，写清尺寸和用途。
+4. **新增文件**：同步更新上面的展示区和规格表。
 
 ## 直接引用
 
