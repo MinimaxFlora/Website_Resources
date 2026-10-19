@@ -16,7 +16,7 @@ images/
 │   ├── icon-180.png     180×180   浅底    iPhone 标准尺寸
 │   └── icon-512.png     512×512   浅底    Android / PWA
 └── poster/              # 横幅 / 海报背景
-    └── slider-bg.jpg    2300×979  JPEG    首页 Banner 背景
+    └── zerowrt.jpg      2300×979  JPEG    ZeroWrt 海报 / 首页 Banner
 ```
 
 ---
@@ -78,12 +78,12 @@ images/
 
 ## 海报展示
 
-<img src="poster/slider-bg.jpg" width="720" alt="首页 Banner 背景">
+<img src="poster/zerowrt.jpg" width="720" alt="ZeroWrt 海报">
 
-<sub><b>poster/slider-bg.jpg</b> · 2300×979 · JPEG · 首页 Banner / 幻灯片背景</sub>
+<sub><b>poster/zerowrt.jpg</b> · 2300×979 · JPEG · ZeroWrt 海报 / 首页 Banner</sub>
 
-构图：左侧菱形底纹、右侧留白，适合在左侧压标题文字。尺寸与子比主题自带的
-`img/slider-bg.jpg` 相同，可直接同名替换。
+构图：左侧大号标题 + 蓝色胶囊标签，右侧 OpenWrt 官方 logo，粉蓝渐变底。
+尺寸与子比主题自带的 `img/slider-bg.jpg` 相同（2300×979），可直接作为幻灯片背景使用。
 
 ---
 
@@ -105,7 +105,7 @@ images/
 
 | 文件 | 尺寸 | 格式 | 用途 |
 | :-- | :-- | :-- | :-- |
-| `slider-bg.jpg` | 2300 × 979 | JPEG | 首页 Banner / 幻灯片背景 |
+| `zerowrt.jpg` | 2300 × 979 | JPEG | ZeroWrt 海报 / 首页 Banner |
 
 ---
 
@@ -131,7 +131,7 @@ https://raw.githubusercontent.com/MinimaxFlora/Website_Resources/master/images/l
 https://raw.githubusercontent.com/MinimaxFlora/Website_Resources/master/images/logo/logo_dark.png
 https://raw.githubusercontent.com/MinimaxFlora/Website_Resources/master/images/logo/favicon.ico
 https://raw.githubusercontent.com/MinimaxFlora/Website_Resources/master/images/logo/icon.png
-https://raw.githubusercontent.com/MinimaxFlora/Website_Resources/master/images/poster/slider-bg.jpg
+https://raw.githubusercontent.com/MinimaxFlora/Website_Resources/master/images/poster/zerowrt.jpg
 ```
 
 > 浏览器会缓存 favicon，换图标后按 `Ctrl/Cmd + Shift + R` 强制刷新。
