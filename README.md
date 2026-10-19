@@ -2,7 +2,7 @@
 
 站点 **[疆途光影](https://www.tatalvpai.vip)** 的静态资源仓库：品牌图、图标、以及后续的图片素材。
 
-所有图片都按用途分目录存放，每个目录自带说明文档。
+所有图片按用途分目录存放，规格与用法统一见本文。
 
 ## 目录
 
@@ -10,9 +10,7 @@
 .
 ├── LICENSE
 └── images/
-    ├── README.md            # 图像资源总览与命名约定
     └── logo/                # 品牌标识
-        ├── README.md        # 这套 logo 的详细说明
         ├── logo.png         500×158   RGBA  浅色头部 logo
         ├── logo_dark.png    300×95    RGBA  深色头部 logo
         ├── favicon.ico      16/32/48/64    浏览器标签图标
@@ -59,7 +57,17 @@ https://raw.githubusercontent.com/MinimaxFlora/Website_Resources/master/images/l
 
 - 品牌图一律 **RGBA 透明底**（桌面图标除外，用浅底）
 - `xxx.png` 给浅色模式，`xxx_dark.png` 给深色模式，后缀不要改
-- 新增文件请同步更新对应目录的 README 表格
+- 新增文件请同步更新本文的表格
+
+## 重制方法
+
+从原稿 `images/logo/logo.png`（或更高的原始尺寸）出发：
+
+1. 按绿色强度生成 alpha matte：`G - (R+B)/2`，把白色底转透明；
+2. 深色版按与背景色 `#323337` 的 RGB 距离生成 alpha；
+3. 等比缩放并居中到 500×158 / 300×95，保持贴边构图；
+4. `.ico` 由 256×256 母版导出 16/32/48/64 四个尺寸；
+5. 桌面图标按子比 `img/icon.png` 的构图重绘：浅底 `#FBFBFB`、图形宽占 53.2%、居中留白。
 
 ## 许可
 
