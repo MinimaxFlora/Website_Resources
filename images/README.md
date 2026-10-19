@@ -62,11 +62,17 @@ images/
 <table>
   <tr>
     <td align="center" width="50%">
-      <img src="logo/favicon.png" width="64" alt="favicon"><br>
-      <sub><b>favicon.ico</b> · 16/32/48/64<br><b>favicon.png</b> · 64×64</sub>
+      <img src="logo/favicon.ico" width="64" alt="favicon.ico"><br>
+      <sub><b>favicon.ico</b> · ICO · 16/32/48/64</sub>
+    </td>
+    <td align="center" width="50%">
+      <img src="logo/favicon.png" width="64" alt="favicon.png"><br>
+      <sub><b>favicon.png</b> · PNG · 64×64</sub>
     </td>
   </tr>
 </table>
+
+> `favicon.ico` 是四个尺寸打包在一个文件里，部分浏览器可能不显示 ICO 预览；`favicon.png` 是透明底 PNG，作备用与社交分享。
 
 ---
 
